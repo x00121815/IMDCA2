@@ -1,0 +1,518 @@
+html, body {
+  height: 100%;
+  color: #434242;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+#arrowDownToSection2 {
+  position: absolute;
+  top: 85%;
+  text-align: center;
+  font-size: 16px;
+  width: 98%;
+}
+
+#arrowDownToSection3 {
+  position: absolute;
+  top: 187%;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  height: 13%;
+}
+
+#arrowDownToSection4 {
+  font-size: 16px;
+  text-align: center;
+  width: 98%;
+  height: 13%;
+  position: absolute;
+  top: 287%;
+}
+
+#arrowDownToSection5 {
+  font-size: 16px;
+  text-align: center;
+  width: 98%;
+  height: 13%;
+  position: absolute;
+  top: 387%;
+}
+
+#arrowSection5 {
+  font-size: 16px;
+  text-align: center;
+  width: 98%;
+  height: 13%;
+  position: absolute;
+  top: 487%;
+}
+
+#homeToSection1 {
+  position: absolute;
+  right: 49%;
+  bottom: -395%;
+}
+
+#section1 {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-image: url("home_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section2 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#section3 {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-image: url("education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section4 {
+  height: 100%;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+#section5 {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-image: url("contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rotatingText {
+  font-size: 50px;
+  text-align: center;
+  top: 20%;
+}
+
+#rotate {
+  text-decoration: underline;
+  text-decoration-color: #50ba6f;
+}
+
+#introImage {
+  border-radius: 50%;
+}
+
+#downloadLink {
+  text-align: center;
+  top: 20%;
+}
+
+#downloadTxt {
+  display: inline;
+  font-size: 20px;
+}
+
+#downloadButton {
+  outline: none;
+  background-color: Transparent;
+  border: none;
+}
+
+#downloadButton img:hover {
+  height: 33px;
+  width: 33px;
+}
+
+#aboutMeTitle {
+  text-align: center;
+  color: #50ba6f;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#about, #about2 {
+  box-shadow: 0 1px 3px #50ba6f, 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 5% 15% 10% 10%;
+  padding: 2% 2% 1% 2%;
+  height: 100%;
+}
+
+#aboutContent {
+  padding-top: 5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+#skillsTitle {
+  text-align: center;
+  color: #50ba6f;
+}
+
+#skills, #skills2 {
+  box-shadow: 0 1px 3px #50ba6f, 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 2% 2% 1% 2%;
+  margin: 5% 15% 10% 10%;
+  height: 100%;
+}
+
+#skillsContent {
+  margin-top: 4%;
+}
+
+#stars {
+  color: #50ba6f;
+}
+
+#vl {
+  border-left: 1px solid #50ba6f;
+  opacity: 0.3;
+  height: 450px;
+  width: 0.1% !important;
+}
+
+#aboutAvatar {
+  padding-top: 1%;
+}
+
+.fa {
+  padding: 10px;
+  border-radius: 50%;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15% 3%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#arrowD, #arrowU, #backH {
+  display: inline-block;
+  padding: 0% 1% 0% 1%;
+}
+
+#vl2 {
+  display: inline-block;
+  border-left: 1px solid #50ba6f;
+  opacity: 0.4;
+  height: 45px;
+  width: 0.1% !important;
+}
+
+#educationTitle {
+  text-align: center;
+  color: black;
+  text-shadow: 0.5px 0.25px 1.5px #50BA6F;
+}
+
+.edu1Button {
+  color: #50ba6f;
+}
+
+#contactBg {
+  box-shadow: 0 1px 3px #50ba6f, 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: rgba(204, 204, 204, 0.5);
+  padding-top: 3%;
+}
+
+#contactTitle {
+  color: black;
+  text-shadow: 3px 2px 5px #50BA6F;
+}
+
+#contactContent {
+  padding-top: 5%;
+}
+
+#arrowTextPrev5, #arrowTextHome5 {
+  background-color: #808080;
+  color: white;
+  border-radius: 10%;
+}
+
+#contactBg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.contactIcons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#contactButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: #50BA6F;
+  margin-top: 3%;
+  box-shadow: 0 1px 3px black, 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#contactButton:focus {
+  outline: 0;
+}
+
+#myModal {
+  background-image: url("contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+#sendEmail {
+  background-color: #50BA6F;
+  color: white;
+}
+
+#edu1, #edu2, #edu3 {
+  background: rgba(204, 204, 204, 0.8);
+  padding-left: 2%;
+  color: black;
+}
+
+#edu1, #edu2 {
+  box-shadow: 6px 0px 5px -2px rgba(0, 0, 0, 0.6);
+}
+
+#edu3 {
+  box-shadow: 6px 6px 5px -2px rgba(0, 0, 0, 0.6);
+}
+
+#eduText1, #eduText2, #eduText3 {
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
+}
+
+#eduYr1, #eduYr2, #eduYr3 {
+  text-shadow: 0.5px 0.25px 1.5px #50BA6F;
+}
+
+#EduPara3 {
+  display: inline-block;
+}
+
+#projTitle {
+  text-align: center;
+  color: black;
+  text-shadow: 0.5px 0.25px 1.5px #50BA6F;
+}
+
+#projCon1, #projCon2 {
+  display: inline-block;
+  width: 49%;
+  background: rgba(204, 204, 204, 0.2);
+  margin-top: 3%;
+  padding: 3% 0% 3% 0%;
+}
+
+#projCon2 {
+  box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.6);
+}
+
+#projCon1 {
+  box-shadow: -10px 10px 20px -5px rgba(0, 0, 0, 0.6);
+}
+
+#projPara1, #projPara2 {
+  width: 65%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 0% 5% 0%;
+}
+
+#projCon1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projCon2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projButton1, #projButton2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  outline: 0;
+  border: 1px solid black;
+  background: Transparent;
+  padding: 5px 10px 5px 10px;
+}
+
+#projButton1:hover {
+  border: 1px solid #50BA6F;
+  color: #50BA6F;
+}
+
+#projButton2:hover {
+  border: 1px solid #50BA6F;
+  color: #50BA6F;
+}
+
+#seeMoreProj {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  outline: 0;
+  margin-top: 2%;
+  background: Transparent;
+}
+
+#seeMoreProj:hover {
+  border: 2px solid #50BA6F;
+  color: #50BA6F;
+}
+
+#projConTitle1, #projConTitle2 {
+  text-align: center;
+  color: black;
+  text-shadow: 0.5px 0.25px 1.5px #50BA6F;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 993px) {
+  #vl {
+    border-left: 0px solid #50ba6f;
+    opacity: 0;
+    height: 0px;
+    width: 0% !important;
+  }
+
+  #vl2 {
+    display: none;
+    border-left: 0px solid #50ba6f;
+    opacity: 0;
+    height: 0px;
+    width: 0% !important;
+  }
+
+  #about, #about2 {
+    box-shadow: 0 1px 3px #50ba6f, 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 0% 0% 0% 0%;
+    padding: 2% 2% 1% 2%;
+  }
+
+  #aboutContent {
+    padding-top: 0%;
+  }
+
+  #skills, #skills2 {
+    box-shadow: 0 1px 3px #50ba6f, 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 2% 2% 1% 2%;
+    margin: 0% 0% 0% 0%;
+    height: 100%;
+  }
+
+  #aboutAvatar img {
+    display: none;
+  }
+
+  #k {
+    display: none;
+  }
+
+  #arrowDownToSection3 {
+    position: relative;
+    top: 0%;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 13%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #aboutMeTitle, #skillsTitle {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  #edu1 img {
+    display: none;
+  }
+
+  #edu2 img {
+    display: none;
+  }
+
+  #edu3 img {
+    display: none;
+  }
+
+  #eduText1, #eduText2, #eduText3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #projCon1 img {
+    display: none;
+  }
+
+  #projCon2 img {
+    display: none;
+  }
+
+  #contactButton {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #socIcon1, #socIcon2, #socIcon3, #socIcon4 {
+    display: none;
+  }
+}
